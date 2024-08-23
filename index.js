@@ -35,6 +35,56 @@ var b = false;
 
  var und = undefined;
  console.log(und);
-
+// null
  var n = null;
  console.log(n);
+
+//arr
+var arr = [1, 2, "queen", 4, 5]
+console.log(arr)
+
+
+var a = 100;
+var b = 10;
+console.log("The value of a + b is ", a+b);
+console.log("The value of a - b is ", a-b);
+console.log("The value of a * b is ", a*b);
+console.log("The value of a / b is ", a/b);
+
+
+
+var c = b;
+c += 2;
+console.log(c);
+
+var x = 34;
+var y = 56;
+console.log(x == y);
+console.log(x >= y);
+console.log(x <= y);
+console.log(x > y);
+console.log(x < y);
+
+
+function avg(a, b) {
+    c = (a + b) / 2;
+    return c;
+}
+
+c1 = avg(4, 6);
+c2 = avg(14, 16);
+console.log(c1, c2);
+
+
+let myDate = new Date();
+console.log(myDate.getDate());
+console.log(myDate.getTime());
+console.log(myDate.getFullYear());
+console.log(myDate.getDay());
+console.log(myDate.getMinutes());
+console.log(myDate.getHours());
+
+ 
+
+let elem = document.getElementById('click');
+console.log(elem);
