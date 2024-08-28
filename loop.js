@@ -8,7 +8,7 @@ for (let i = 0; i < 5; i++) {
   //while loop
   {
   let i = 0;
-while (i < 5) {
+while (i < 7) {
   console.log("Iteration number: " + i);
   i++;
 }
@@ -20,6 +20,6 @@ let i = 0;
 do {
   console.log("Iteration number: " + i);
   i++;
-} while (i < 5);
+} while (i < 10);
 
 }
