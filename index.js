@@ -21,6 +21,8 @@ var num2 = 56.78;
 var str1 = "this is string"
 var str2 = "this is also string"
 
+console.log(str2[4]);
+
 //objects
 var marks = {
     jay: 99,
