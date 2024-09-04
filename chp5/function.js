@@ -46,3 +46,24 @@ function reverseString(str) {
 }
 
 console.log(reverseString('hello')); 
+
+
+
+function fetchData(callback) {
+    setTimeout(() => {
+      const data = { user: "Jay", age: 21 };
+      callback(data);
+    }, 1000);
+  }
+  
+  fetchData((data) => {
+    console.log(data); // Output after 2 seconds: { user: 'John', age: 25 }
+  });
+  
+
+
+
+
+const subtract = (a, b) => a - b;
+
+console.log(subtract(10, 4));
