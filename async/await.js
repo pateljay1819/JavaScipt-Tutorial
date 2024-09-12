@@ -13,6 +13,6 @@ async function displayweather() {
   let weather = await getweather();
 
   console.log(`weather update: ${weather}`);
-  
+     
 }
 displayweather();
